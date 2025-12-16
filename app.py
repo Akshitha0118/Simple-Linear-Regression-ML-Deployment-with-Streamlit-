@@ -9,7 +9,7 @@ from scipy import stats
 # -----------------------------
 # Load Model & Dataset
 # -----------------------------
-with open("C:\\Users\\ADMIN\\Desktop\\ML PROJECTS 9AM\\ML 2ND PROJ UPDATED\\Linear_regression_model.pkl", "rb") as file:
+with open("Linear_regression_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 dataset = pd.read_csv("Salary_Data.csv")
@@ -123,4 +123,5 @@ st.write(
 # Footer
 # -----------------------------
 st.markdown("<hr>", unsafe_allow_html=True)
+
 
